@@ -31,7 +31,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["127.0.0.1","localhost", ".vercel.app"]
 
 CORS_ALLOW_ALL_ORIGINS = True
-#CORS_ORIGIN_WHITELIST = ['http://localhost:8080', 'https://journal-post-frontend-h2c6.vercel.app/']
+CORS_ORIGIN_WHITELIST = ['http://localhost:8080', 'https://journal-post-frontend-h2c6.vercel.app/']
 
 # Application definition
 
