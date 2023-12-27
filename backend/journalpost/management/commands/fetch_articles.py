@@ -3,7 +3,7 @@ import time
 
 from decouple import config
 from django.core.management.base import BaseCommand, CommandError
-from journalpost.models import Article
+from .models import Article
 
 
 class Command(BaseCommand):
