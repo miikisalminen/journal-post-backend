@@ -37,7 +37,7 @@ CORS_ALLOW_HEADERS = default_headers + (
    
 )
 
-CORS_ORIGIN_WHITELIST = ['http://localhost:8080', 'https://journal-post-frontend-h2c6.vercel.app/']
+CORS_ORIGIN_WHITELIST = ['http://localhost:8080', 'https://journal-post-frontend-h2c6.vercel.app']
 
 CORS_ALLOW_CREDENTIALS = True
 
