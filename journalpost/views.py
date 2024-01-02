@@ -29,7 +29,7 @@ class ArticleSearchView(APIView):
     @parser_classes([JSONParser])
     def get(self, request):
         if request.GET:
-            articles = Article.objects.filter(title__contains=request.GET.get('query'))
+            articles = Article.objects.filter(title__icontains=request.GET.get('query'))
 
             # Use DRF's PageNumberPagination
             paginator = PageNumberPagination()
